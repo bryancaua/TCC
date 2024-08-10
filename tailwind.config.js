@@ -10,7 +10,8 @@ module.exports = {
         'bege': '#FFEFBB',
         'marrom': '#4A2F1A',
         'off-white': '#FFF3DB',
-        'laranja': '#FF914D'
+        'laranja': '#FF914D',
+        'bege-madeira': '#B89D7F'
       }
     },
     fontFamily: {
