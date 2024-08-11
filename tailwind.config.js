@@ -11,7 +11,7 @@ module.exports = {
         'marrom': '#4A2F1A',
         'off-white': '#FFF3DB',
         'laranja': '#FF914D',
-        'bege-madeira': '#B89D7F'
+        'bege-madeira': '#D1A779'
       }
     },
     fontFamily: {

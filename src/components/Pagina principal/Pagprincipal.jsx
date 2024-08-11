@@ -22,7 +22,7 @@ export default function Pagprincipal() {
 
         <div className="flex flex-col justify-center items-center md:items-start md:ml-[100px]">
           <div className="mb-14 text-center md:text-left">
-            <h1 className="font-sans font-bold text-black mb-8 shadow-2xl" style={{ fontSize: '45px' }}>
+            <h1 className="font-sans font-bold text-black mb-8" style={{ fontSize: '45px' }}>
               HOT DOG
             </h1>
             <h2 className="font-sans font-semibold text-black" style={{ fontSize: '25px' }}>
