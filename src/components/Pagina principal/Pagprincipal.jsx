@@ -7,12 +7,12 @@ export default function Pagprincipal() {
 
   
   const goToIntroducao = () => navigate('/introducao');
-  const goToSobreNos = () => navigate('/sobrenos'); 
+  const goToSobreNos = () => navigate('/sobre-nos'); 
 
   return (
     <main className="bg-bege h-screen p-8">
       <div className="container mx-auto h-full flex flex-col md:flex-row items-center justify-center"> 
-        <div className="flex-shrink-0 mb-8 md:mb-0 -mt-32">
+        <div className="flex-shrink-0 mb-8 md:mb-0 -mt-20">
           <img 
             src={LogoHotDog} 
             alt="um cachorrinho dentro de uma casinha" 
