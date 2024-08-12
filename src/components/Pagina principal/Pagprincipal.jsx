@@ -1,13 +1,13 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Importe o hook useNavigate
+import { useNavigate } from 'react-router-dom'; 
 import LogoHotDog from '../../assets/logo.svg';
 
 export default function Pagprincipal() {
-  const navigate = useNavigate(); // Crie uma instância do hook useNavigate
+  const navigate = useNavigate(); 
 
-  // Funções para navegação
+  
   const goToIntroducao = () => navigate('/introducao');
-  const goToSobreNos = () => navigate('/sobrenos'); // Adapte conforme suas rotas
+  const goToSobreNos = () => navigate('/sobrenos'); 
 
   return (
     <main className="bg-bege h-screen p-8">
@@ -32,13 +32,13 @@ export default function Pagprincipal() {
 
           <div className="flex flex-col md:flex-row gap-4 mt-16">
             <button
-              onClick={goToIntroducao} // Adicione o evento de clique para navegação
+              onClick={goToIntroducao} // Adicionando o evento de clique para navegação
               className="bg-black text-white rounded-full px-10 py-4 text-lg transition transform hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
             >
               Introdução
             </button>
             <button
-              onClick={goToSobreNos} // Adicione o evento de clique para navegação
+              onClick={goToSobreNos} // Adicionando o evento de clique para navegação
               className="bg-black text-white rounded-full px-10 py-4 text-lg transition transform hover:bg-gray-800 hover:shadow-lg hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
             >
               Sobre nós

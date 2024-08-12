@@ -14,27 +14,28 @@ export default function Introducao() {
               alt="um cachorrinho dentro de uma casinha" 
               className="w-16 mt-[-16px]" 
             />
-            <span className="text-2xl text-marrom-claro mx-2">|</span>
+            <span className="text-4xl text-marrom-claro mx-2">|</span>
             <h1 className="text-3xl text-marrom-claro font-sans font-bold">HotDog</h1>
           </div>
-          <nav className="ml-4 md:ml-0">
+          <nav className="ml-4 md:ml-0 mr-32">
             <ul className="flex space-x-6 md:space-x-12 text-marrom-claro">
-              <li><Link to="/" className="hover:opacity-75 text-marrom font-sans2 font-semibold">Introdução</Link></li>
-              <li><Link to="/sobre-nos" className="hover:opacity-75 text-marrom font-sans2 font-semibold">Sobre nós</Link></li>
-              <li><Link to="/sobre-o-projeto" className="hover:opacity-75 text-marrom font-sans2 font-semibold">Sobre o projeto</Link></li>
-              <li><Link to="/materiais" className="hover:opacity-75 text-marrom font-sans2 font-semibold">Materiais</Link></li>
+              <li><Link to="/" className="hover:opacity-75 text-marrom font-sans2 font-bold">Introdução</Link></li>
+              <li><Link to="/sobre-nos" className="hover:opacity-75 text-marrom font-sans2 font-bold">Sobre nós</Link></li>
+              <li><Link to="/sobre-o-projeto" className="hover:opacity-75 text-marrom font-sans2 font-bold">Sobre o projeto</Link></li>
+              <li><Link to="/materiais" className="hover:opacity-75 text-marrom font-sans2 font-bold">Materiais</Link></li>
             </ul>
           </nav>
         </header>
+
       </div>
 
         <div className="flex flex-col items-center mt-16 px-4">
           <h1 className="font-sans font-bold text-6xl text-marrom-claro mb-4 md:mb-0 
-            md:text-6xl text-4xl md:mr-[70%] mr-[15%]">
+            md:text-6xl text-4xl md:mr-[60%] mr-[15%]">
             Introdução
           </h1>
 
-          <h2 className="font-sans font-medium text-lg text-black max-w-2xl text-center md:text-left mt-4 md:mt-10 md:mr-[52%] mr-[15%] ">
+          <h2 className="font-sans font-medium text-lg text-black max-w-2xl text-center md:text-left mt-4 md:mt-10 md:mr-[42%] mr-[15%] ">
             A utilização de tecnologias como o Arduíno possibilita a criação de soluções inovadoras e personalizadas para atender às necessidades específicas dos animais de estimação. Neste projeto, o Arduíno será empregado para monitorar a temperatura interna da casinha e acionar um sistema de aquecimento quando necessário, garantindo um ambiente térmico adequado em diferentes condições climáticas.
             <br/><br/>
             Além disso, a casinha de cachorro com aquecedor baseada em Arduíno não apenas visa fornecer conforto térmico aos animais, mas também busca promover a eficiência energética e a sustentabilidade. A automação do sistema de aquecimento permite um controle preciso da energia consumida, reduzindo desperdícios e impactos ambientais.
